@@ -1,0 +1,18 @@
+# Mengabaikan folder virtual environment
+yolo_env/
+venv/
+env/
+
+# Mengabaikan cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Mengabaikan dataset (gambar dan label) agar proses upload tidak lama/gagal
+datasets/
+*.jpg
+*.jpeg
+*.png
+
+# Catatan: Folder 'runs' (tempat best.pt berada) TIDAK kita abaikan di sini 
+# asalkan ukuran file best.pt kamu di bawah 100MB (biasanya model YOLO nano/small aman).
